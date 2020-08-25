@@ -2,12 +2,6 @@ import firebase from "firebase";
 import dotenv from "dotenv";
 dotenv.config();
 
-console.log(process.env.FS_apiKey);
-console.log(process.env.FS_apiKey);
-console.log(process.env.FS_apiKey);
-console.log(process.env.FS_apiKey);
-console.log(process.env.FS_apiKey);
-
 const firebaseConfig = {
   apiKey: process.env.FS_apiKey,
   authDomain: process.env.FS_authDomain,
